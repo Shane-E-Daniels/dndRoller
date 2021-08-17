@@ -1,0 +1,88 @@
+*, *::before *::after {
+    box-sizing:border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #333;
+}
+
+.container {
+    width: 400px;
+    max-width: 1200px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px;
+    border: 1px black;
+}
+
+.btn-grid {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    margin-top: 20px;
+    padding: 2px;
+}
+
+.header {
+    background-color: tan;
+    padding: 2px;
+    font-size: x-large;
+    font-weight: bold; 
+}
+
+.header-top {
+    background-color: tan;
+    padding: 2px;
+    font-size: x-large;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
+    display: flex;    
+}
+
+.text, .input-group {
+    border: 1px solid black;
+    padding: 0.5rem;
+    align-content: center;
+    justify-content: left;
+    background: lightgray 75%;    
+    background-image: url(bckgrnd.jpg);
+}
+
+#option-fields2 {
+    background-color: lightgray;
+}
+
+#option-fields2 button {    
+    cursor: pointer;
+}
+
+.input-group {    
+    min-height: 1.5rem;
+}
+
+#total {
+    font-weight: bold;
+}
+
+#average {
+    font-size: small;
+}
+
+.btn {
+    background-color: lightblue;
+    padding: 0 5px 0 5px;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: lightcoral;
+    cursor: pointer;
+}
